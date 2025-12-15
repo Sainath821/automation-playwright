@@ -1,0 +1,22 @@
+{
+  "name": "automation-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "test": "npx playwright test",
+  "test:ui": "npx playwright test tests/ui",
+  "test:message": "npx playwright test tests/ui/messageBox.spec.js",
+  "test:form": "npx playwright test tests/ui/formUpload.spec.js",
+  "test:api": "npx playwright test tests/api",
+  "test:headed": "npx playwright test --headed"
+}
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "dotenv": "^17.2.3"
+  }
+}
