@@ -34,30 +34,9 @@ Version Control: Git & GitHub
 Platform: Windows
 
 Project Structure
-automation-playwright/
-├── pages/
-│   ├── loginPage.js
-│   ├── navigationPage.js
-│   ├── taskBotPage.js
-│   └── formBuilderPage.js
-│
-├── tests/
-│   ├── ui/
-│   │   ├── messageBox.spec.js
-│   │   └── formUpload.spec.js
-│   ├── api/
-│   │   └── learningInstance.spec.js
-│   └── fixtures/
-│       └── sample-upload.pdf
-│
-├── utils/
-│   └── testData.js
-│
-├── playwright.config.js
-├── package.json
-├── package-lock.json
-├── .gitignore
-└── README.md
+
+<img width="332" height="637" alt="Screenshot 2025-12-16 155842" src="https://github.com/user-attachments/assets/27d178ed-e161-49d0-aff6-9b3abe7ac359" />
+
 
 Prerequisites
 Node.js (v18 or higher)
@@ -102,6 +81,7 @@ npx playwright show-report
 This opens the Playwright HTML Test Report with detailed execution steps.
 
 
+<img width="1919" height="1009" alt="image" src="https://github.com/user-attachments/assets/054469e2-dfa9-4bf4-bd02-f27cde383fa5" />
 <img width="1919" height="978" alt="Screenshot 2025-12-15 100811" src="https://github.com/user-attachments/assets/3f8d5d65-1976-43b2-be60-727f7ccd5d6a" />
 <img width="1919" height="1079" alt="Screenshot 2025-12-15 100743" src="https://github.com/user-attachments/assets/9919e969-b3a8-4f37-b929-325f25d48179" />
 <img width="1919" height="978" alt="Screenshot 2025-12-15 100811" src="https://github.com/user-attachments/assets/d1f7be57-e3b2-4a8a-8446-a1d64cf2f136" />
