@@ -1,28 +1,28 @@
 Automation Anywhere – Playwright Automation Project
-📌 Project Overview
+ Project Overview
 This project demonstrates UI Automation and API Automation using the Playwright framework for Automation Anywhere Control Room.
 The automation is implemented using the Page Object Model (POM) design pattern to ensure maintainability, reusability, and scalability.
 
-✅ Use Cases Covered
-🔹 Use Case 1: Message Box Task (UI Automation)
+ Use Cases Covered
+ Use Case 1: Message Box Task (UI Automation)
 Login to Automation Anywhere Control Room
 Create a Task Bot
 Add a Message Box action
 Save the Task Bot
 
-🔹 Use Case 2: Form with File Upload (UI Automation)
+ Use Case 2: Form with File Upload (UI Automation)
 Create a new Form
 Add a Textbox field
 Add a File Upload component
 Upload a sample PDF file
 Save the Form
 
-🔹 Use Case 3: Learning Instance (API Automation
+ Use Case 3: Learning Instance (API Automation
 Create a Learning Instance using REST APIs
 Validate API response
 Verify the Learning Instance in Control Room
 
-🧰 Framework and Tools Used
+ Framework and Tools Used
 Automation Tool: Playwright
 Playwright Version: 1.57.0
 Programming Language: JavaScript
@@ -58,7 +58,7 @@ Step 3: Configure Environment Variables
 Create a .env file in the project root:
 UI_USERNAME=your-email@example.com
 UI_PASSWORD=your-password
-⚠️ .env file is ignored by Git for security reasons.
+ .env file is ignored by Git for security reasons.
 
 Step 4: (Windows Only) Allow npm Execution
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
